@@ -109,7 +109,7 @@ let antitrol = true
 
 let hit_today = []
 let blocked = []
-let limitawal = "100" 
+let limitawal = "1000" 
 let namabot = setting.botname
 let owner_name = setting.ownername
 let owner_number = setting.ownerNumber
@@ -126,7 +126,7 @@ let multiprefix = true
 let nopref = false
 let autovn = false
 let ngetik = false
-let menusimple = false
+let menusimple = true
 let Mloc = false
 let autoregister = setting.user_register
 let autorespon = setting.autorespon
@@ -443,10 +443,9 @@ var waktoo = date.getHours();
 					limit: 'Limit kamu habis lord , Silahkan beli dengan #buylimit <nominal> atau minta gift dari user lain',
 					sewabot: ` 「 *SEWA BOT* 」 \n\nBerikut list sewa bot kami
 
-•> 25k / BULAN (PREMIUM)
-Isi sendiri
+•> 20k / BULAN (PREMIUM)
 
-Minat? Pm wa.me/${owner_number}`,
+Minat? Pm wa.me/${6288211784515}`,
 					ban: 'Maaf Lord Nomor Kamu Sudah Di Banned!',
 					error: 'Error Lord, Mungkin Lagi Diperbaiki',
 					errorLink: 'Link Error Lord',
@@ -1760,7 +1759,7 @@ Alasan : ${reason}`, [sender], true)
 										sendButLocation(from, sewabotkak(), `Sewa bot om?`,  thumbnail, gakloo,{})
 										break
 						case 'donasi':
-									reply('Isi sendiri')
+									reply('Hubungi: Https://wa.me/6288211784515?text=Assalamualaikum')
 									break
 						case 'join':case 'joingc':
 									if (!q) return reply('Linknya?')
