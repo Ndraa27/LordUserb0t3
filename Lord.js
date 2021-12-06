@@ -1759,7 +1759,7 @@ Alasan : ${reason}`, [sender], true)
 										sendButLocation(from, sewabotkak(), `Sewa bot om?`,  thumbnail, gakloo,{})
 										break
 						case 'donasi':
-									reply('Hubungi: Https://wa.me/6288211784515?text=Assalamualaikum')
+									reply('Hubungi: Https://wa.me/6288211784515?text=Assalamualaikum%20Bang%20mau%20donasi')
 									break
 						case 'join':case 'joingc':
 									if (!q) return reply('Linknya?')
